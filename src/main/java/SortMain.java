@@ -16,6 +16,10 @@ public class SortMain {
         sorter(new InsertSort(targetArr.clone()));
 
         sorter(new ShellSort(targetArr.clone()));
+
+        sorter(new MergeSort(targetArr.clone()));
+
+        sorter(new RadixSort(targetArr.clone()));
     }
 
     private static void sorter(Sort sortClazz){
