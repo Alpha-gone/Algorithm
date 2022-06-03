@@ -9,11 +9,11 @@ public class RadixSort extends Sort {
         this.arr = arr;
         this.sortName = "기수 정렬";
         this.buckets = new ArrayDeque[10];
+        initBuckets();
     }
 
     @Override
     public void sort() {
-        initBuckets();
         final int EXP = getEXP();
         radixSort(EXP);
     }
