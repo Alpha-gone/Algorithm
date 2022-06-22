@@ -1,3 +1,5 @@
+package sort;
+
 public class InsertSort extends Sort{
 
     public InsertSort(int[] arr){

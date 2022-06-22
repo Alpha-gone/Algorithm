@@ -1,3 +1,5 @@
+package sort;
+
 public class HeapSort extends Sort{
     public HeapSort(int[] arr){
         this.arr = arr;
@@ -25,8 +27,8 @@ public class HeapSort extends Sort{
             heapify(0, nextFillIdx);
         }
     }
-    
-    
+
+
     private int getParent(int childIdx){
         return (childIdx - 1) / 2;
     }

@@ -1,3 +1,5 @@
+package sort;
+
 public class QuickSort extends Sort{
 
     public QuickSort(int[] arr){

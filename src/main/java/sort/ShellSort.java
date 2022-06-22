@@ -1,3 +1,5 @@
+package sort;
+
 public class ShellSort extends Sort{
 
     public ShellSort(int[] arr){

@@ -1,3 +1,5 @@
+package sort;
+
 public class SelectionSort extends Sort{
     public SelectionSort(int[] arr){
         this.arr = arr;

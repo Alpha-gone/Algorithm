@@ -1,3 +1,5 @@
+package sort;
+
 public class BubbleSort extends Sort{
     public BubbleSort(int[] arr){
         this.arr = arr;

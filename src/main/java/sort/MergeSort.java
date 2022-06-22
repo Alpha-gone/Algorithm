@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package sort;
 
 public class MergeSort extends Sort {
     private int[] sortedArr;
